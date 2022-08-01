@@ -1,0 +1,10 @@
+Nome tabella: Auto Usate
+
+id - BIGINT - PRYMARY_KEY
+model - VARCHAR(150) - NOTNULL 
+year_of_immatricolation - SMALLINT - NOTNULL
+seller - VARCHAR(150) - NOTNULL
+price - DECIMAL(9, 2) - NOTNULL
+good_condition - TINYINT - NOTNULL
+description - TEXT - NOTNULL
+accessories - TEXT - NULL 
